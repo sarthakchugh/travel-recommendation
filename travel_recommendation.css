@@ -119,22 +119,28 @@ main {
 	margin-top: 2rem;
 }
 
-.content h1 {
+.home-heading {
 	font-size: 4.5rem;
 	width: 30rem;
 	font-weight: 700;
-  font-stretch: expanded;
+	font-stretch: expanded;
 }
 
-.content p {
+.home-para {
 	width: 20rem;
 	margin-bottom: 4rem;
 }
 
-.content button {
+.home-btn {
 	width: fit-content;
 	padding: 0.5rem 1.5rem;
 	border-radius: 4px;
 	font-size: 1rem;
 	font-weight: 700;
+}
+
+.empty-div {
+	width: 407.16px;
+	height: 48px;
+	margin: 0.5rem 0.5rem 0.5rem 0;
 }
