@@ -155,6 +155,67 @@ main {
 	margin: 0.5rem 0.5rem 0.5rem 0;
 }
 
+.search-content {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 37rem;
+	overflow-y: scroll;
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+.search-list {
+	list-style: none;
+}
+
+.search-item {
+	width: 30rem;
+	background-color: whitesmoke;
+	border-radius: 4px;
+	box-shadow: 5px 5px 10px #0000008f;
+	margin-bottom: 1rem;
+}
+
+.search-item_img {
+	height: 17rem;
+	width: 30rem;
+}
+
+.search-item_img img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 4px 4px 0 0;
+}
+
+.search-item_detail {
+	padding: 1rem 1rem 0 1rem;
+}
+
+.search-item_detail h3 {
+	color: black;
+	margin-top: 0;
+}
+
+.search-item_detail p {
+	width: 30rem;
+	color: #aaa;
+}
+
+.visit-btn {
+	padding: 0.5rem 1rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+}
+
+.no-result {
+	padding-left: 10rem;
+}
+
 .about-heading {
 	font-size: 4rem;
 	margin-top: 2rem;
@@ -163,7 +224,7 @@ main {
 .about-para {
 	width: 90%;
 	padding: 1rem;
-	background-color: #00000031;
+	background-color: #00000055;
 	margin-top: 0;
 	border-radius: 4px;
 }
@@ -191,7 +252,7 @@ main {
 	display: flex;
 	align-items: flex-start;
 	padding: 1.5rem;
-	background-color: #00000031;
+	background-color: #00000055;
 	border-radius: 8px;
 }
 
@@ -235,7 +296,7 @@ main {
 }
 
 .other-details {
-	background-color: #00000031;
+	background-color: #00000055;
 	padding: 1rem;
 	width: 90%;
 	margin-top: 5rem;
@@ -284,18 +345,12 @@ main {
 	margin-top: 10rem;
 }
 
-.contact-heading {
-}
-
 .contact-heading h1 {
 	font-size: 4rem;
 }
 
-.contact-heading p {
-}
-
 .contact-form {
-	background-color: #00000031;
+	background-color: #00000055;
 	border-radius: 4px;
 	padding: 1rem;
 }
